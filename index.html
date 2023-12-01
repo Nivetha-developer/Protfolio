@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Nivetha M - Professional Software Engineer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<style>
+    .imageAboutPage {
+        max-height: 350px; /* Adjust the height as needed */
+        width: auto;
+    }
+
+    /* Center the form on the contact page */
+    .contact-form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 50vh;
+    }
+
+    .center-button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Add other custom CSS styles here */
+
+    /* Style for the horizontal footer at the end of the page */
+    .horizontal-footer {
+        background: #333; /* Background color of the footer */
+        color: #fff; /* Text color of the footer */
+        padding: 10px;
+        padding-left: 300px;
+        /* display: flex; */
+        /* justify-content: space-between; Display content horizontally */
+    }
+
+    .horizontal-footer p {
+        margin-right: 100px; /* Add space between text items */
+        display: inline-block; /* Display text in a single line */
+    }
+
+</style>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Nivetha M</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h2 class="hero_title">Hi, it's me Nivetha</h2>
+                    <p class="hero_desc">I am a professional backend developer in Coimbatore City</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+    <div class="container mt-4 pt-4">
+        <h1 class="text-center">About Me</h1>
+        <div class="row mt-4">
+            <div class="col-lg-4">
+                <img src="images/photo.jpg" class="imageAboutPage" alt="">
+            </div>
+
+            <div class="col-lg-8">
+                <p> I am a Python developer with 2.5 years of experience in software development. Throughout my career, I have worked on various projects and gained valuable skills and knowledge. Here is a summary of my expertise and accomplishments:
+                    
+                </p>
+                <ul>
+                    <li>Over 2.5 years of experience in software engineering, with a focus on open-source technologies, user needs analysis, application design, development, and testing.</li>
+                    <li>Expertise in developing business solutions, with a strong foundation in object-oriented analysis, design, and development principles</li>
+                    <li>Highly skilled in problem-solving and a self-motivated team player.</li>
+                    <li>Experienced in database design and development, including web-based and mobile applications.</li>
+                    <li>Proficient in deploying Django applications on servers and well-versed in Machine Learning concepts.</li>
+                    <li>Worked on Odoo projects for 3 months, focusing on bug fixing, customization, and implementing additional features.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h1 class="text-center">Skills</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">API Development</h4>
+                            <p class="card-text mt-3">Build robust and scalable APIs using Python frameworks like Django. These APIs can serve as a backend for web and mobile applications, allowing communication between the front-end and database.</p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">DBMS</h4>
+                            <p class="card-text mt-3">Offer services to design and implement efficient database architectures using technologies like MySQL. Integrate databases with the backend to store and retrieve data effectively.</p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Access control</h4>
+                            <p class="card-text mt-3">Implement secure authentication and authorization systems using tools like JSON Web Tokens (JWT) or OAuth. This ensures that users have secure access to the web applications and mobile applications.</p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Performance Optimization</h4>
+                            <p class="card-text mt-3"> Identify and optimize performance bottlenecks in the backend code to ensure fast response times and smooth user experiences. Implement database optimizations, and code optimizations.</p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">API Documentation</h4>
+                            <p class="card-text mt-3">Create comprehensive and well-structured documentation for the APIs you develop. This helps clients and other developers understand how to interact with the backend and leverage the provided services.</p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">QA</h4>
+                            <p class="card-text mt-3">Offer testing and QA services to ensure the stability and reliability of the backend code. Implement unit tests, integration tests, functional tests and perform stress tests to identify and fix potential issues.</p>
+                        </div>
+                    </div>  
+                </div>
+                <!-- Include more skill cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+    <div class="container mt-3">
+        <h1 class="text-center">Projects</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card" style="height: 100%;">
+                    <img class="card-img-top" src="images\tutor.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Phygital</h4>
+                        <p class="card-text">Comprehensive learning programs for K-12 students, offering personalized and engaging learning experiences.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card" style="height: 100%;">
+                    <img class="card-img-top" src="images\maid.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Squeaki</h4>
+                        <p class="card-text">Connects users with domestic cleaning service providers based on location, availability, services offered, and user ratings.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card" style="height: 100%;">
+                    <img class="card-img-top" src="images\service.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Fixxer</h4>
+                        <p class="card-text">Connects users with service professionals based on location, availability, services offered, and user ratings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card" style="height: 100%;">
+                    <img class="card-img-top" src="images\play.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Hawa</h4>
+                        <p class="card-text">Allows users to book playgrounds based on their needs, with options to book entire playgrounds or specific player spaces.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card" style="height: 100%;">
+                    <img class="card-img-top" src="images\mask.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Face mask detection</h4>
+                        <p class="card-text">Uses computer vision to detect whether a person is wearing a mask or not.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card" style="height: 100%;">
+                    <img class="card-img-top" src="images\emotion.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Face emotion detection</h4>
+                        <p class="card-text">Utilizes face recognition technology to identify or verify individuals by analyzing their facial features.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+            <div class="contact-form-container">
+                <div class="col-lg-6">
+                    <form id="contact-form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control form-control-lg" id="name" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" id="message" name="message" placeholder="Project Details"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-success mx-auto center-button" onclick="sendEmail()">Contact Me</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!--  Footer -->
+    <div class="horizontal-footer">
+        <p><i class="fa fa-map-marker fa-fw"></i> Coimbatore, India</p>
+        <p><i class="fa fa-phone fa-fw"></i> Phone: +91 9787014752</p>
+        <p><i class="fa fa-envelope fa-fw"></i> Email: mnivetha23@mail.com</p>
+    </div>
+
+
+</body>
+<script>
+    emailjs.init("QuxGvQ2Yf5gInkfVs"); // Replace with your user ID from EmailJS
+</script>
+  
+<script>
+function sendEmail() {
+    emailjs.send("service_xsvc3c7", "template_coy712o", {
+    to_name: "Nivetha", // You can specify a recipient's name here
+    from_name: document.getElementById("name").value, // You can specify your name here
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    subject: document.getElementById("subject").value,
+    message: document.getElementById("message").value,
+    }).then(function(response) {
+    alert("Email sent successfully!");
+    }, function(error) {
+    alert("Email could not be sent. Please try again later.");
+    });
+}
+</script>
+  
+
+  
+</html>
